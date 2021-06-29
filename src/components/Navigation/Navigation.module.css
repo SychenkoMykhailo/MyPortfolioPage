@@ -1,0 +1,51 @@
+.container {
+  width: 100%;
+  height: 100%;
+  width: 90rem;
+  margin: 0 auto;
+  padding-top: 5rem;
+  display: flex;
+  justify-content: space-around;
+  letter-spacing: 0.2rem;
+}
+.item__container {
+  padding: 0.2rem 2rem 0.2rem 2rem;
+  background-color: #5c7481;
+  box-shadow: 0 0 2.3rem 2.3rem #072434 inset,
+    0rem 0.01rem 0.2rem 0.01rem #5c7481;
+  border-radius: 2.5rem;
+}
+.item__container:hover {
+  background-color: #4671a3;
+}
+
+.item {
+  font-size: 5rem;
+  text-decoration: none;
+  background-color: #0c1c2e;
+  -webkit-transition: all 150ms ease-in-out;
+  transition: all 150ms ease-in-out;
+  -webkit-background-clip: text;
+  -moz-background-clip: text;
+  background-clip: text;
+  color: transparent;
+  text-shadow: 0 1px 0 #4671a3, 0 2px 0 #12345a, 0 3px 0 #12345a,
+    0 4px 0 #12345a, 0 5px 0 #12345a, 0 6px 1px rgba(0, 0, 0, 0.1),
+    0 0 5px rgba(0, 0, 0, 0.1), 0 1px 3px rgba(0, 0, 0, 0.3),
+    0 3px 5px rgba(0, 0, 0, 0.2), 0 5px 10px rgba(0, 0, 0, 0.25);
+}
+.item__active {
+  text-shadow: rgba(180, 212, 252, 0.8) 0 3px 3px;
+}
+/* 
+#072434
+#5c7481
+#d2f3fe
+#b4d4fc
+#4671a3
+#12345a
+#0c1c2e
+#000310
+#111229
+#303757 
+*/

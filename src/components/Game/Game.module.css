@@ -1,0 +1,78 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-size: 5rem;
+  color: #b4d4fc;
+}
+.game {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.cards {
+  display: flex;
+  width: 70rem;
+  justify-content: space-between;
+}
+.input_container {
+  display: flex;
+}
+.input {
+  display: inline-block;
+  width: 20rem;
+  background-color: #5c7481;
+  color: #b4d4fc;
+  border-radius: 4rem;
+  text-align: center;
+  box-shadow: 0 0 2.5rem 2.5rem #072434 inset,
+    0rem 0.01rem 0.2rem 0.01rem #5c7481;
+  border: none;
+}
+.input:focus {
+  outline: none;
+}
+.input_btn {
+  width: 8rem;
+  display: inline-block;
+  border-radius: 4rem;
+  outline: none;
+  border: none;
+  cursor: pointer;
+  background-color: #5c7481;
+  color: #b4d4fc;
+  box-shadow: 0 0 2rem 2rem #072434 inset, 0rem 0.01rem 0.2rem 0.01rem #5c7481;
+  user-select: none;
+}
+.input_btn:hover {
+  box-shadow: 0 0 1.7rem 1.7rem #072434 inset,
+    0rem 0.01rem 0.2rem 0.01rem #5c7481;
+}
+.input_btn:active {
+  color: #d2f3fe;
+}
+.game_btn {
+  cursor: pointer;
+  margin-top: 2rem;
+  width: 100%;
+  height: 100%;
+  background: #4671a3;
+  border-radius: 3rem;
+  box-shadow: 0 0 2.3rem 2.3rem #072434 inset,
+    0rem 0.01rem 0.2rem 0.01rem #5c7481;
+  border: none;
+  color: #b4d4fc;
+  -webkit-transition: all 150ms ease-in-out;
+  transition: all 150ms ease-in-out;
+}
+.game_btn:hover {
+  text-shadow: #303757 0 5px 5px;
+  font-size: 5.5rem;
+  color: #d2f3fe;
+  box-shadow: 0 0 3.2rem 3.2rem #072434 inset,
+    0rem 0.01rem 0.2rem 0.01rem #12345a;
+}
+.stack {
+  user-select: none;
+  font-size: 8rem;
+}

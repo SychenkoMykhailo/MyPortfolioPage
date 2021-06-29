@@ -1,0 +1,23 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  max-width: 17rem;
+  max-height: 15rem;
+  font-size: 3rem;
+  letter-spacing: 0.1rem;
+  margin: 3rem;
+  color: #b4d4fc;
+}
+/* 
+#072434
+#5c7481
+#d2f3fe
+#b4d4fc
+#4671a3
+#12345a
+#0c1c2e
+#000310
+#111229
+#303757 
+*/

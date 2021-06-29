@@ -1,0 +1,41 @@
+.container {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  align-items: center;
+}
+.links {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-size: 3rem;
+}
+.links a {
+  margin-top: 2rem;
+  padding: 1rem 3rem 1rem 3rem;
+  border: solid;
+  border-color: #b4d4fc;
+  border-radius: 5rem;
+  text-decoration: none;
+  letter-spacing: 0.3rem;
+  color: #4671a3;
+}
+.links a:hover {
+  transition: all 70ms ease-in-out;
+  text-shadow: #b4d4fc 0px 0.5px 0.5px;
+  box-shadow: 0 0 0.2rem 0.2rem #b4d4fc;
+  background-color: #0c1c2e;
+}
+/* 
+#072434
+#5c7481
+#d2f3fe
+#b4d4fc
+#4671a3
+#12345a
+#0c1c2e
+#000310
+#111229
+#303757 
+*/
