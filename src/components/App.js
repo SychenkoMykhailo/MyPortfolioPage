@@ -10,7 +10,6 @@ import Header from "../views/Header";
 function App() {
   return (
     <div className="wrapper">
-      <h1>Test</h1>
       <Header />
       <Navigation />
       <div className="container">
